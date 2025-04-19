@@ -1,0 +1,123 @@
+/*
+    Styling Markdown
+*/
+
+/* Headers */
+info {
+    color: darkgreen;
+    font-size: 12pt;
+    font-style: italic;
+    padding: 0.25rem;
+}
+term {
+    color: darkblue;
+    font-size: 13pt;
+    padding: 0.25rem;
+}
+head_1 {
+    color: darkblue;
+    font-size: 16pt;
+    padding: 0.25rem;
+}
+
+/* Containers */
+container {
+    display: flex;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.con-420-240 {
+    width: 420px;
+    height: auto;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid silver;
+}
+
+.con-550-280 {
+    width: 550px;
+    height: auto;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid silver;
+}
+
+.con-sm {
+    width: 250px;
+    height: auto;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid silver;
+}
+
+/* Font Colors */
+r {
+    color: red;
+}
+g {
+    color: green;
+}
+b {
+    color: blue;
+}
+o {
+    color: orange;
+}
+w {
+    color: white;
+}
+bl {
+    color: black;
+}
+
+.bgOrange {
+    background-color: orange;
+}
+.bgGray {
+    background-color: gray;
+}
+.bgSilver {
+    background-color: silver;
+}
+
+/* font weight */
+bld {
+    font-weight: 900;
+}
+
+/* font size */
+fs-10 {
+    font-size: 10pt;
+}
+fs-11 {
+    font-size: 11pt;
+}
+fs-12 {
+    font-size: 12pt;
+}
+fs-14 {
+    font-size: 14pt;
+}
+fs-16 {
+    font-size: 16pt;
+}
+fs-18 {
+    font-size: 18pt;
+}
+fs-20 {
+    font-size: 20pt;
+}
+fs-24 {
+    font-size: 24pt;
+}
+fs-36 {
+    font-size: 36pt;
+}
+
+/* image styles */
+img[alt='Interaction'] {
+    margin: 0 auto;
+    width: 520px;
+    height: 360px;
+}
